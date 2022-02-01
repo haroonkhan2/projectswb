@@ -1,0 +1,57 @@
+.sidenav{
+
+    width: 100px;
+    height: 400px;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: #242333;
+    transform: translate(50%,25%);
+}
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: grey;
+    display: block;
+  }
+  .sidenav a:hover{
+      background: white;
+  }
+  .box{
+      transform: translate(50%,-80%);
+      border: 2px solid black;
+      width: 700px;
+      height: 440px;
+      background-color: #242333;
+  }
+  h2{
+      text-align: center;
+      color: white;
+  }
+  .button input[type="button"]{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color:#01b0d3;
+      transform: translate(1250%,70%);
+  }
+  body{
+      background-color:none;
+  }
+  .search input[type=search]{
+      color: #242333;
+      transform: translate(50%,-1700%);
+  }
+.button input[type="button"]:hover
+{
+    cursor: pointer;
+}
+html{
+    font-family: sans-serif;
+}
+.button1 input[type="button"]{
+    width:650px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
